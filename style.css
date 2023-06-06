@@ -1,0 +1,18 @@
+body {
+    box-sizing: border-box;
+}
+#firstContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    max-width: 30rem;
+    text-align: center;
+}
+#secondContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
