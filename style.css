@@ -199,7 +199,11 @@ footer img {
   transition: 0.3s;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) { 
+  #firstContainer .backgroundImg {
+  background-image: linear-gradient(to bottom, transparent, #fff),
+  url("./images/bg-header-mobile.png");
+  }
   #buttonContainer {
     flex-direction: column;
     gap: 1.5rem;
