@@ -57,7 +57,7 @@ h1 {
 }
 .backgroundImg {
   background-image: linear-gradient(to bottom, transparent, #fff),
-  url("/images/bg-header-desktop.png");
+  url("./images/bg-header-desktop.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
