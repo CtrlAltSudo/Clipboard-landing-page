@@ -54,7 +54,7 @@
           <button class="macosButton">Download for Mac</button>
         </div>
         <div class="secondTextWrap">
-          <h2>Keep track of your snippets</h2>
+          <h2 class="firstH2">Keep track of your snippets</h2>
           <p class="secondP">
             Clipboard instantly stores any item you copy in the cloud, meaning
             you can access your snippets immediately on all your devices. Our
@@ -65,24 +65,24 @@
       <div id="secondContainer">
         <img src="/images/image-computer.png" alt="computer monitor" srcset="" />
         <div class="bpContainer">
-          <ul>
+          <ul class="firstUL">
             <li class="lHead">Quick Search</li>
            <li class="lText"> Easily search your snippets by content, category, web address,
             application, and more.</li>
           </ul>
-          <ul>
+          <ul class="firstUL">
             <li class="lHead">iCloud Sync</li>
             <li class="lText">Instantly saves and syncs snippets across all your devices.</li>
           </ul>
-          <ul>
+          <ul class="firstUL">
             <li class="lHead">Complete History</li>
             <li class="lText"> Retrieve any snippets from the first moment you started using the app.</li>
           </ul>
         </div>
       </div>
       <div id="thirdContainer">
-        <h2>Access Clipboard anywhere</h2>
-        <p>
+        <h2 class="secondH2">Access Clipboard anywhere</h2>
+        <p class="thirdP">
           Whether you’re on the go, or at your computer, you can access all your
           Clipboard snippets in a few simple clicks.
         </p>
@@ -91,22 +91,22 @@
           alt="mobile and tablet image"
           srcset=""
         />
-        <h2>Supercharge your workflow</h2>
-        <p>We’ve got the tools to boost your productivity.</p>
+        <h2 class="thirdH2">Supercharge your workflow</h2>
+        <p class="thirdP">We’ve got the tools to boost your productivity.</p>
       </div>
       <div id="fourthContainer">
         <ul>
           <li><img src="/images/icon-blacklist.svg" alt="" srcset="" /></li>
-          <li><h3>Create blacklists</h3></li>
-          <li>
+          <li class="lHead"><h3>Create blacklists</h3></li>
+          <li class="lText">
             Ensure sensitive information never makes its way to your clipboard
             by excluding certain sources.
           </li>
         </ul>
         <ul>
           <li><img src="/images/icon-text.svg" alt="" srcset="" /></li>
-          <li><h3>Plain text snippets</h3></li>
-          <li>
+          <li class="lHead"><h3>Plain text snippets</h3></li>
+          <li class="lText">
             Remove unwanted formatting from copied text for a consistent look.
           </li>
         </ul>
@@ -114,27 +114,27 @@
           <li>
             <img src="/images/icon-preview.svg" alt="" srcset="" />
           </li>
-          <li><h3>Sneak preview</h3></li>
-          <li>
+          <li class="lHead"><h3>Sneak preview</h3></li>
+          <li class="lText">
             Quick preview of all snippets on your Clipboard for easy access.
           </li>
         </ul>
       </div>
       <div id="fifthContainer">
         <ul>
-          <li>
+          <li class="techBrandLogo">
             <img src="/images/logo-google.png" alt="Google logo" srcset="" />
           </li>
-          <li><img src="/images/logo-ibm.png" alt="IBM logo" srcset="" /></li>
-          <li>
+          <li class="techBrandLogo"><img src="/images/logo-ibm.png" alt="IBM logo" srcset="" /></li>
+          <li class="techBrandLogo">
             <img
               src="/images/logo-microsoft.png"
               alt="Microsoft logo"
               srcset=""
             />
           </li>
-          <li><img src="/images/logo-hp.png" alt="HP logo" srcset="" /></li>
-          <li>
+          <li class="techBrandLogo"><img src="/images/logo-hp.png" alt="HP logo" srcset="" /></li>
+          <li class="techBrandLogo">
             <img
               src="/images/logo-vector-graphics.png"
               alt="Vector Graphics logo"
@@ -144,11 +144,13 @@
         </ul>
       </div>
       <div id="sixthContainer">
-        <h2>Clipboard for iOS and Mac OS</h2>
-        <p>
+        <div class="thirdTextWrap">
+        <h2 class="fourthH2">Clipboard for iOS and Mac OS</h2>
+        <p class="fourthP">
           Available for free on the App Store. Download for Mac or iOS, sync
           with iCloud and you’re ready to start adding to your clipboard.
         </p>
+      </div>
       </div>
       <div id="buttonContainer">
         <button class="iosButton">Download for iOS</button>
@@ -156,26 +158,36 @@
       </div>
     </main>
     <footer>
-      <ul>
-        <li><img src="/images/logo.svg" alt="" srcset="" /></li>
+      <div id="footerULContainer">
+      <ul class="footerUL">
+        <li><img src="/images/logo.svg" alt="company logo" srcset=""/></li>
       </ul>
-      <ul>
+      <ul class="footerUL">
         <li>FAQs</li>
         <li>Contact Us</li>
       </ul>
-      <ul>
+      <ul class="footerUL">
         <li>Privacy Policy</li>
         <li>Press Kit</li>
       </ul>
-      <ul>
+      <ul class="footerUL">
         <li>Install Guide</li>
       </ul>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
+
+      <div id="socialContainer">
+        <i class="fa-brands fa-square-facebook fa-2x"></i>
+        <i class="fa-brands fa-twitter fa-2x"></i>
+        <i class="fa-brands fa-instagram fa-2x"></i>
+         </div>
+    </div>
+
     </footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </p>
+    <script src="https://kit.fontawesome.com/d8f6df5d47.js" crossorigin="anonymous"></script>
   </body>
 </html>

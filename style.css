@@ -7,7 +7,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
 }
 .firstP {
   margin-bottom: 3.5rem;
@@ -15,13 +14,14 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.3rem;
 }
-.secondP {
+.secondP, .thirdP, .fourthP {
   margin-top: 0;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.3rem;
 }
 .firstTextWrap,
-.secondTextWrap {
+.secondTextWrap, 
+.thirdTextWrap {
   text-align: center;
   max-width: 50rem;
 }
@@ -31,18 +31,24 @@ h1 {
   margin-bottom: 1.5rem;
   margin-top: 0;
 }
-h2 {
+.firstH2 {
   margin-top: 10rem;
   font-size: 2.5rem;
   font-family: "Bai Jamjuree", sans-serif;
 }
+.secondH2, .thirdH2, .fourthH2{
+  font-size: 2.5rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-top: 5rem;
+}
+
 .topLogo {
   margin-top: 7rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 .backgroundImg {
   background-image: linear-gradient(to bottom, transparent, #fff),
-    url("/images/bg-header-desktop.png");
+  url("/images/bg-header-desktop.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -57,13 +63,22 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 13rem;
 }
-ul {
+.firstUL {
   list-style: none;
   text-align: left;
   padding: 5rem;
   line-height: 2;
 }
+.footerUL {
+  line-height: 2;
+  list-style: none;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
 ul .lHead {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.6rem;
@@ -103,12 +118,29 @@ ul .lText {
   flex-direction: row;
   gap: 8em;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 footer {
-  display: flex;
+  padding: 1.5rem 0 1.5rem 0;
+  margin-top: 8rem;
+  background-color: #F5F6F8;
 }
+#footerULContainer{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 0.5rem;
+
+}
+#socialContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: 20rem;
+}
+
 footer img {
-  width: 3rem;
+  width: 4rem;
 }
 #buttonContainer {
   display: flex;
@@ -123,6 +155,7 @@ footer img {
   border: 0;
   font-size: 1rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
 }
 .macosButton {
   padding: 1rem 2rem 1rem 2rem;
@@ -133,4 +166,9 @@ footer img {
   font-size: 1rem;
   border: 0;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+.techBrandLogo {
+  list-style: none;
+  margin-top: 8rem;
 }
