@@ -13,33 +13,42 @@ body {
   margin-top: 0;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.3rem;
+  color:hsl(201, 11%, 66%)
 }
 .secondP, .thirdP, .fourthP {
   margin-top: 0;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.3rem;
+  color: hsl(201, 11%, 66%);
 }
 .firstTextWrap,
 .secondTextWrap, 
+.fourthTextWrap,
 .thirdTextWrap {
   text-align: center;
   max-width: 50rem;
+}
+#thirdContainer img {
+  margin-top: 5rem;
 }
 h1 {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 3.2rem;
   margin-bottom: 1.5rem;
   margin-top: 0;
+  color: hsl(210, 10%, 33%);
 }
 .firstH2 {
   margin-top: 10rem;
   font-size: 2.5rem;
   font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(210, 10%, 33%);
 }
 .secondH2, .thirdH2, .fourthH2{
   font-size: 2.5rem;
   font-family: "Bai Jamjuree", sans-serif;
   margin-top: 5rem;
+  color: hsl(210, 10%, 33%);
 }
 
 .topLogo {
@@ -63,12 +72,16 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 13rem;
+  margin: 5rem 13rem 5rem 0;
+  gap: 4rem;
+}
+#secondContainer .bpContainer {
+  margin-bottom: 4.5rem;
 }
 .firstUL {
   list-style: none;
   text-align: left;
-  padding: 5rem;
+  padding: 1rem;
   line-height: 2;
 }
 .footerUL {
@@ -96,6 +109,9 @@ ul .lText {
   justify-content: center;
   align-items: center;
 }
+#thirdContainer img {
+  margin-bottom: -2rem;
+}
 #fourthContainer {
   display: flex;
   flex-direction: row;
@@ -119,6 +135,9 @@ ul .lText {
   gap: 8em;
   justify-content: center;
   margin-bottom: 3rem;
+}
+#sixthContainer {
+  margin-bottom: 1.5rem;
 }
 footer {
   padding: 1.5rem 0 1.5rem 0;
@@ -154,7 +173,6 @@ footer img {
   color: white;
   border: 0;
   font-size: 1rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
 }
 .macosButton {
@@ -165,10 +183,97 @@ footer img {
   color: white;
   font-size: 1rem;
   border: 0;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
 }
 .techBrandLogo {
   list-style: none;
   margin-top: 8rem;
+}
+
+.iosButton:hover {
+  box-shadow: #26bba5 0 3px 8px;
+  transition: 0.3s;
+}
+.macosButton:hover {
+  box-shadow: #6173fe 0 3px 8px;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+  #buttonContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 80%;
+  }
+  .macosButton {
+    margin-left: 0;
+  }
+  #secondContainer,  #thirdContainer {
+    flex-direction: column;
+    text-align: center;
+    margin:  0 auto;
+    width: 80%;
+  }
+  #thirdContainer img {
+    width: 110%;
+  }
+  .secondP {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  #secondContainer img{
+    height: auto;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .firstUL {
+    padding: 0;
+    text-align: center;
+  }
+  .secondH2 {
+    text-align: center;
+  }
+  #fourthContainer, #sixthContainer {
+    flex-direction: column;
+    margin-bottom: 8rem;
+  }
+  #fourthContainer ul {
+    padding-left: 0;
+  }
+  #fourthContainer img {
+    width: 3.5rem;
+    margin-top: 3rem;
+  }
+  #fifthContainer ul {
+    flex-direction: column;
+    padding: 0;
+    gap: 4rem;
+  }
+  #fifthContainer li {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #sixthContainer {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 3rem auto;
+  }
+  #buttonContainer {
+    margin: 0 auto;
+  }
+  #footerULContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  #footerULContainer ul {
+    padding-left: 0;
+    margin: 0;
+    line-height: 3;
+  }
+  #socialContainer {
+    margin: 3rem auto 0 auto;
+  }
 }
