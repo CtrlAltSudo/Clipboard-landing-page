@@ -1,11 +1,10 @@
 <h1 align="center">Clipboard Landing Page</h1>
 <p align="center"> <a align="center" href="https://ctrlaltsudo.github.io/Clipboard-landing-page/">Live Demo</a><p>
-<p align="center"> <a align="center" href="">Solution Page</a><p>
+<p align="center"> <a align="center" href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9/hub">Solution Page</a><p>
 <h2 align="center">Project Screenshot<h2>
 <p align="center">
-  <img src="./screenshot.png" alt="project screen shot"></img>
+  <img src="./images/screenshot.png" alt="project screen shot"></img>
 </p>
-
 
 
 ## Description
